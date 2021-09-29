@@ -1,0 +1,51 @@
+nav ul li a {
+    text-decoration: none;
+    color: #3a3a3a;
+    background-color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding: 1vw 2vw 1vw 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a:hover {
+    transition: 500ms;
+    background-color: rgb(134, 134, 134);
+    color: #ffffff;
+}
+nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    
+}
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+.Visit-Kolding-Nav {
+    display: inline-block;
+    width: 14vw;
+    margin: 0px;
+    padding: 0;
+    margin-left: 2vw;
+    position: absolute;
+}
+.search-icon-nav {
+    float: right;
+    width: 1.5vw;
+    margin-top: 1.4vw;
+    margin-right: 2vw;
+}
+nav {
+    margin-top: 0vw;
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+.li-1-nav {
+margin-left: 25vw;
+}
