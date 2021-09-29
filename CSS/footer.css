@@ -38,6 +38,7 @@ svg{
     margin-left: auto;
     display: flex;
     margin-right: 5vw;
+    gap: 1vw;
 }
 
 .right-box ul{
@@ -88,10 +89,7 @@ li h4{
 }
 
 @media screen and (max-width: 900px) {
-    body{
-        background-color: red;
-    }
-
+ 
     .upper-footer {
         display: block;
         text-align: center;
