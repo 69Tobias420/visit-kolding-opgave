@@ -5,6 +5,20 @@
 /* Seværdigheder */
 
 /* Foreningsliv */
+#association-life {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#association-life img {
+  height: 670px;
+}
+
+#smalltext {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 /* Gågaden */
 
@@ -23,12 +37,12 @@
 /* Natteliv */
 
 /* Danmark */
-main {
+#danmark {
   max-width: 1200px;
-  margin-left: 200px;
+  margin: 0 auto;
 }
 
-main img {
+#danmark img {
   height: 670px;
 }
 
