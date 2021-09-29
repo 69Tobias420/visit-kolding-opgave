@@ -19,7 +19,17 @@
 /* Børneliv */
 
 /* Geografisk have */
-
+.geo-section {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.geo-img {
+  width: 20vw;
+}
+img {
+  width: 100%;
+}
 /* Natteliv */
 
 /* Danmark */
