@@ -1,6 +1,6 @@
 nav ul li a {
     text-decoration: none;
-    color: #3a3a3a;
+    color: #6B6054;
     background-color: #ffffff;
     font-size: 1.5vw;
     font-weight: 700;
@@ -11,8 +11,8 @@ nav ul li a {
 }
 nav ul li a:hover {
     transition: 500ms;
-    background-color: rgb(134, 134, 134);
-    color: #ffffff;
+    background-color: #6B6054;
+    color: #CBC9AD;
 }
 nav ul li {
     margin: 0;
@@ -41,6 +41,13 @@ nav ul {
     margin-top: 1.4vw;
     margin-right: 2vw;
 }
+.burger-menu-icon-nav {
+    float: right;
+    width: 1.5vw;
+    margin-top: 1.4vw;
+    margin-right: 2vw;
+    display: none;
+}
 nav {
     margin-top: 0vw;
     padding: 0;
@@ -48,4 +55,29 @@ nav {
 }
 .li-1-nav {
 margin-left: 25vw;
+}
+.burger-menu-list {
+    display: none;
+}
+@media screen and (max-width: 662px) {
+    nav ul li a {
+        display: none;
+    }
+    .search-icon-nav {
+        display: none;
+    }
+    .Visit-Kolding-Nav {
+        display: block;
+        width: 50vw;
+    }
+    nav ul {
+        padding: 5.2vw;
+    }
+    .burger-menu-icon-nav {
+        float: right;
+        width: 6vw;
+        margin-top: 3.5vw;
+        margin-right: 3.5vw;
+        display: unset;
+    }
 }
