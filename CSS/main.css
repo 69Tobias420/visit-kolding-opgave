@@ -96,7 +96,34 @@
 /* Geografisk have */
 
 /* Natteliv */
+#night-life {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "nightimg night1"
+    "night2 nightimg2 ";
+}
 
+#night-life img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.night-1 {
+  grid-area: night1;
+}
+
+.night-2 {
+  grid-area: night2;
+}
+#night-pic {
+  grid-area: nightimg;
+}
+#night-music {
+  grid-area: nightimg2;
+}
 /* Danmark */
 #denmark {
   max-width: 70%;
