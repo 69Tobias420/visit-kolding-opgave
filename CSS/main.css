@@ -1,3 +1,11 @@
+@import url('designmodel-1.css');
+@import url('designmodel-2.css');
+@import url('designmodel-3.css');
+@import url('designmodel-4.css');
+@import url('nav.css');
+@import url('footer.css');
+@import url('grid.css');
+
 * {
   margin: 0;
   padding: 0;
@@ -69,6 +77,23 @@ body{
   grid-area: img3;
 }
 
+@media screen and (max-width: 700px) {
+  #attractions {
+    padding: 0;
+    gap: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "img1"
+    "article1"
+    "img2"
+    "article2"
+    "img3"
+    "article3";
+  }
+}
+
 /* Foreningsliv */
 #association-life {
   max-width: 1200px;
@@ -76,10 +101,16 @@ body{
 }
 
 #association-life img {
-  height: 670px;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
 }
 
-#smalltext {
+#association-life h2 {
+  padding-top: 20px;
+}
+
+#associationsmalltext {
   font-size: 15px;
   margin-left: 100px;
   margin-right: 100px;
@@ -92,6 +123,21 @@ body{
 /* Historiske bygninger */
 
 /* Havnen */
+#docks {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#docks img {
+  height: 670px;
+}
+
+#toptext {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 /* "At bo i Kolding" */
 
@@ -104,14 +150,21 @@ body{
 /* Danmark */
 #denmark {
   max-width: 70%;
+  min-width: 50%;
   margin: 0 auto;
 }
 
 #denmark img {
-  height: 670px;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
 }
 
-#smalltext {
+#denmark h2 {
+  padding-top: 20px;
+}
+
+#denmarksmalltext {
   font-size: 15px;
   margin-left: 100px;
   margin-right: 100px;
