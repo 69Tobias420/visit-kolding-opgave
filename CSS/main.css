@@ -119,6 +119,21 @@
 /* Historiske bygninger */
 
 /* Havnen */
+#docks {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#docks img {
+  height: 670px;
+}
+
+#toptext {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 /* "At bo i Kolding" */
 
