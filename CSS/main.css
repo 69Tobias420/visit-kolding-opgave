@@ -11,6 +11,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #6b6054;
+}
 /* En forside lidt ala en avis med nyheder og appetizers til hvad siden ellers byder på. */
 
 /* Kolding som designby */
