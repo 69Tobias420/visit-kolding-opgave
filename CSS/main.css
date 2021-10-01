@@ -144,7 +144,43 @@ body{
 /* Børneliv */
 
 /* Geografisk have */
+.geo-h3-2,
+.geo-h3-4,
+.geo-h3-6,
+.geo-h3-8,
+.geo-img-2,
+.geo-img-4,
+.geo-img-6,
+.geo-img-8 {
+  background-color: red;
+}
+.geo-h2-color-1 {
+  color: #6B6054;
+}
+.geo-h2-color-2 {
+  color: #837B6B;
+}
+.geo-h2 {
+  font-size: 11vw;
+  text-align: center;
+}
 
+.geo-section p {
+  font-size: 1.6vw;
+  /* text-align: justify; */
+}
+.geo-section {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+}
+.geo-img {
+  width: 41vw;
+}
+img {
+  width: 100%;
+}
 /* Natteliv */
 
 /* Danmark */
