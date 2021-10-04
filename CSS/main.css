@@ -113,6 +113,51 @@
 }
 
 /* Gågaden */
+#pedestrian-zone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "pedestrian-img1 pedestrian-article1"
+    "pedestrian-article2 pedestrian-img2";
+}
+
+#pedestrian-zone article {
+  padding: 25px;
+}
+
+#pedestrian-zone p {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#pedestrian-zone h2 {
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#pedestrian-zone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#pedestrian-zone-article1 {
+grid-area: pedestrian-article1;
+}
+
+#pedestrian-zone-article2 {
+grid-area: pedestrian-article2;
+}
+
+#pedestrian-zoneimg1 {
+grid-area: pedestrian-img1;
+}
+
+#pedestrian-zomeimg2 {
+grid-area: pedestrian-img2;
+}
 
 /* Trafik */
 
