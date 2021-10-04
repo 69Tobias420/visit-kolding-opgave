@@ -19,7 +19,93 @@
 /* Børneliv */
 
 /* Geografisk have */
+.geo-section-grid {
+    display: grid;
+    grid-template-areas: "a a aa aa"
+                         "a a aa aa"
+                         "ab ab b b"
+                         "ab ab b b"
+                         "c c ac ac"
+                         "c c ac ac"
+                         "ad ad d d"
+                         "ad ad d d"
+                         "e e ae ae"
+                         "e e ae ae"
+                         "af af f f"
+                         "af af f f"
+                         "g g ag ag"
+                         "g g ag ag"
+                         "ah ah h h"
+                         "ah ah h h"
+                        ;
+    gap: 1em;
+   
+}
+.geo-h3-1 {
+    grid-area: a;
+}
+.geo-h3-2 {
+    grid-area: b;
+}
+.geo-h3-3 {
+    grid-area: c;
+}
+.geo-h3-4 {
+    grid-area: d;
+}
+.geo-h3-5 {
+    grid-area: e;
+}
+.geo-h3-6 {
+    grid-area: f;
+}
+.geo-h3-7 {
+    grid-area: g;
+}
+.geo-h3-8 {
+    grid-area: h;
+}
+.geo-img-1 {
+    grid-area: aa;
+}
+.geo-img-2 {
+    grid-area: ab;
+}
+.geo-img-3 {
+    grid-area: ac;
+}
+.geo-img-4 {
+    grid-area: ad;
+}
+.geo-img-5 {
+    grid-area: ae;
+}
+.geo-img-6 {
+    grid-area: af;
+}
+.geo-img-7 {
+    grid-area: ag;
+}
+.geo-img-8 {
+    grid-area: ah;
+}
 
+.col-1, .col-2, .col-3 , .col-4 {
+    display: grid;
+    gap: 1em;
+}
+ .col-1 {
+     grid-template-columns: auto;
+ }
+ .col-2 {
+    grid-template-columns: auto auto;
+}
+.col-3 {
+    grid-template-columns: auto auto auto;
+}
+.col-4 {
+    grid-template-columns: auto auto auto auto;
+}
 /* Natteliv */
 
 /* Danmark */

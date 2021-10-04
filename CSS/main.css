@@ -11,6 +11,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #6b6054;
+}
 /* En forside lidt ala en avis med nyheder og appetizers til hvad siden ellers byder på. */
 
 /* Kolding som designby */
@@ -164,13 +168,64 @@ grid-area: pedestrian-img2;
 /* Historiske bygninger */
 
 /* Havnen */
+#docks {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#docks img {
+  height: 670px;
+}
+
+#toptext {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 /* "At bo i Kolding" */
 
 /* Børneliv */
 
 /* Geografisk have */
+.geo-h3-2,
+.geo-h3-4,
+.geo-h3-6,
+.geo-h3-8,
+.geo-img-2,
+.geo-img-4,
+.geo-img-6,
+.geo-img-8 {
+  background-color: red;
+}
+.geo-h2-color-1 {
+  color: #6B6054;
+}
+.geo-h2-color-2 {
+  color: #837B6B;
+}
+.geo-h2 {
+  font-size: 11vw;
+  text-align: center;
+}
 
+.geo-section p {
+  font-size: 1.6vw;
+  /* text-align: justify; */
+}
+.geo-section {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+}
+.geo-img {
+  width: 41vw;
+}
+img {
+  width: 100%;
+}
 /* Natteliv */
 
 /* Danmark */
