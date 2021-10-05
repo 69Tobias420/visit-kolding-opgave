@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #38a3a5;
 }
 
 header figure{
@@ -14,9 +13,9 @@ header figure{
 }
 
 h1 {
-    background-color: #38a3a5;
+    background-color: #837b6b;
     position: relative;
-    bottom: 8vw;
+    bottom: 6vw;
     left: 5vw;
     padding: 2vw;
     width: 50%;
@@ -38,7 +37,7 @@ h1 {
 
 .text-section-2{
     display: flex;
-    background-color: #80ed99;
+    background-color: #9b9581;
 }
 
 .text-field {
