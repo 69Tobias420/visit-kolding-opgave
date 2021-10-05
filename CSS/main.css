@@ -185,7 +185,51 @@ grid-area: pedestrian-img2;
 }
 
 /* "At bo i Kolding" */
+#live-in-kolding {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "live-in-koldingimg1 live-in-koldingarticle1"
+    "live-in-koldingarticle2 live-in-koldingimg2";
+}
 
+#live-in-koldingimg1 {
+  grid-area: live-in-koldingimg1;
+}
+
+#live-in-koldingimg2 {
+  grid-area: live-in-koldingimg2;
+}
+
+#live-in-koldingarticle1 {
+  grid-area: live-in-koldingarticle1;
+}
+
+#live-in-koldingarticle2 {
+  grid-area: live-in-koldingarticle2;
+}
+
+#live-in-kolding article {
+  padding: 25px;
+}
+
+#live-in-kolding p {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#live-in-kolding h2 {
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#live-in-kolding img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 /* Børneliv */
 
 /* Geografisk have */
