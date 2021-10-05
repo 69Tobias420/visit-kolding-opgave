@@ -156,7 +156,7 @@ body{
   width: 25vw;
   height: 10vw;
 }
-.event-1{
+.event-1, .event-2, .event-3{
   display: flex;
   align-items: center;
   gap: 2vw;
@@ -496,4 +496,60 @@ img {
   font-size: 15px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media screen and (max-width: 700px){
+  .header-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f"
+    "g h"
+    "i j"
+    ;
+    gap: 1vw;
+  
+    margin: 1vw 5vw;
+  }
+
+  .event-container h4{
+    font-size: 5vw;
+    align-self: center;
+    
+  }
+
+  .event-1, .event-2, .event-3{
+    display: block;
+    margin: 2vw;
+    border: 2px dotted black;
+    text-align: justify;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .event-1 img, .event-2 img, .event-3 img{
+    display: none;
+  }
+
+  .event-1{
+    background-image: url(/VisitKolding/Billedmateriale/kunst.jpg);
+    background-size: cover;
+  }
+
+  .event-2{
+    background-image: url(/VisitKolding/Billedmateriale/kunst2.jpg);
+    background-size: cover;
+  }
+  .event-3{
+    background-image: url(/VisitKolding/Billedmateriale/kunst3.jpg);
+    background-size: cover;
+  }
+
+  .section-2{
+    display: block;
+    text-align: center;
+  }
 }
