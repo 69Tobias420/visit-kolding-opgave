@@ -36,11 +36,24 @@ body{
   margin: 1vw 5vw;
 }
 
-.header-grid div{
+.header-grid a:hover {
+  color: rgb(255, 174, 0);
+}
+
+.header-grid {
+  padding-top: 80px;
+}
+
+.header-grid h4 {
+  font-size: 40px;
+}
+
+.header-grid a {
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  text-decoration: none;
 }
 
 .square-1{
@@ -213,6 +226,10 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1vw;
+}
+
+.section-2-gallery p {
+  font-size: 30px;
 }
 
 .maps{
