@@ -239,6 +239,10 @@ body {
 }
 /* Kolding som designby */
 
+#designcity {
+  margin-top: 70px;
+}
+
 #designcity2 {
   width: 60%;
 }
@@ -285,6 +289,7 @@ body {
 }
 /* Seværdigheder */
 #attractions {
+  margin-top: 70px;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -341,7 +346,7 @@ body {
   grid-area: img3;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   #attractions {
     padding: 0;
     gap: 0;
@@ -362,6 +367,7 @@ body {
 #association-life {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 70px;
 }
 
 #association-life img {
@@ -374,14 +380,9 @@ body {
   padding-top: 20px;
 }
 
-#associationsmalltext {
-  font-size: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 /* Gågaden */
 #pedestrian-zone {
+  margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -448,6 +449,7 @@ body {
 #docks {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 90px;
   text-align: center;
 }
 
@@ -463,6 +465,7 @@ body {
 
 /* "At bo i Kolding" */
 #live-in-kolding {
+  margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -562,6 +565,7 @@ img {
 }
 /* Natteliv */
 #night-life {
+  margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -594,6 +598,7 @@ img {
   max-width: 70%;
   min-width: 50%;
   margin: 0 auto;
+  margin-top: 70px;
 }
 
 #denmark img {
@@ -604,12 +609,6 @@ img {
 
 #denmark h2 {
   padding-top: 20px;
-}
-
-#denmarksmalltext {
-  font-size: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 @media screen and (max-width: 700px) {
