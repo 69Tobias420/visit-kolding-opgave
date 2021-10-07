@@ -1,12 +1,288 @@
+@import url("designmodel-1.css");
+@import url("designmodel-2.css");
+@import url("designmodel-3.css");
+@import url("designmodel-4.css");
+@import url("nav.css");
+@import url("footer.css");
+@import url("grid.css");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* En forside lidt ala en avis med nyheder og appetizers til hvad siden ellers byder på. */
 
+body {
+  background-color: #6b6054;
+}
+/* En forside lidt ala en avis med nyheder og appetizers til hvad siden ellers byder på. */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "a a b c c "
+    "a a d e e"
+    "f g g e e"
+    "f h i i j";
+  gap: 1vw;
+
+  margin: 1vw 5vw;
+}
+
+.header-grid a:hover {
+  color: rgb(255, 174, 0);
+}
+
+.header-grid {
+  padding-top: 80px;
+}
+
+.header-grid h4 {
+  font-size: 40px;
+}
+
+.header-grid a {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.square-1 {
+  grid-area: a;
+  background-image: url(../VisitKolding/Billedmateriale/bybillede_havn.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-2 {
+  grid-area: b;
+  background-image: url(../VisitKolding/Billedmateriale/Foreningsliv/fodbold.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-3 {
+  grid-area: c;
+  background-image: url(../VisitKolding/Billedmateriale/børn.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-4 {
+  grid-area: d;
+  background-image: url(../VisitKolding/Billedmateriale/torv.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-5 {
+  grid-area: e;
+  background-image: url(../VisitKolding/Billedmateriale/havn_træskib.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-6 {
+  grid-area: f;
+  background-image: url(../VisitKolding/Billedmateriale/natteliv2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-7 {
+  grid-area: g;
+  background-image: url(../VisitKolding/Billedmateriale/Historie.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-8 {
+  grid-area: h;
+  background-image: url(../VisitKolding/Billedmateriale/trafik.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-9 {
+  grid-area: i;
+  background-image: url(../VisitKolding/Billedmateriale/shopping1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.square-10 {
+  grid-area: j;
+  background-image: url(../VisitKolding/Billedmateriale/designskolen.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.section-1 {
+  background-color: #9b9581;
+}
+.event-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5vw;
+}
+
+.event-container h4 {
+  position: relative;
+  bottom: 1vw;
+  font-size: 2vw;
+}
+
+.event-container figure {
+  margin: 0;
+  padding: 0;
+}
+
+.event-pic {
+  width: 25vw;
+  height: 10vw;
+}
+.event-1,
+.event-2,
+.event-3 {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin: 0.5vw 0;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-num {
+  font-size: 4vw;
+}
+
+.section-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 2vw;
+}
+
+.section-2-headline {
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+.section-2-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4vw;
+}
+
+.section-2 figure {
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+.section-2 figcaption {
+  margin: 1vw 0;
+}
+.section-2 img {
+  margin: auto;
+  width: 100%;
+  height: 15vw;
+  padding: 0;
+}
+
+.section-2-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1vw;
+}
+
+.section-2-gallery p {
+  font-size: 30px;
+}
+
+.maps {
+  width: 100%;
+  height: 40vw;
+  border: none;
+}
 /* Kolding som designby */
 
+#designcity2 {
+  width: 60%;
+}
+
+#designcity2 img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#designcity2 {
+  font-size: 20px;
+  padding: 30px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#designcity2 aside {
+  max-width: 400px;
+}
+
+#designcity2 p {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+#designcitytext {
+  padding: 30px;
+  max-width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+#designcitytext p {
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  #designcity2 {
+    width: 100%;
+  }
+}
 /* Seværdigheder */
 #attractions {
   padding: 20px;
@@ -65,6 +341,23 @@
   grid-area: img3;
 }
 
+@media screen and (max-width: 700px) {
+  #attractions {
+    padding: 0;
+    gap: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "img1"
+      "article1"
+      "img2"
+      "article2"
+      "img3"
+      "article3";
+  }
+}
+
 /* Foreningsliv */
 #association-life {
   max-width: 1200px;
@@ -72,29 +365,201 @@
 }
 
 #association-life img {
-  height: 670px;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
 }
 
-#smalltext {
+#association-life h2 {
+  padding-top: 20px;
+}
+
+#associationsmalltext {
   font-size: 15px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 /* Gågaden */
+#pedestrian-zone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "pedestrian-img1 pedestrian-article1"
+    "pedestrian-article2 pedestrian-img2";
+}
+
+#pedestrian-zone article {
+  padding: 25px;
+}
+
+#pedestrian-zone p {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#pedestrian-zone h2 {
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#pedestrian-zone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#pedestrian-zone-article1 {
+  grid-area: pedestrian-article1;
+}
+
+#pedestrian-zone-article2 {
+  grid-area: pedestrian-article2;
+}
+
+#pedestrian-zoneimg1 {
+  grid-area: pedestrian-img1;
+}
+
+#pedestrian-zomeimg2 {
+  grid-area: pedestrian-img2;
+}
+
+@media screen and (max-width: 700px) {
+  #pedestrian-zone {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "pedestrian-img1"
+      "pedestrian-article1"
+      "pedestrian-img2"
+      "pedestrian-article2";
+  }
+}
 
 /* Trafik */
 
 /* Historiske bygninger */
 
 /* Havnen */
+#docks {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#docks img {
+  height: 670px;
+}
+
+#toptext {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 /* "At bo i Kolding" */
+#live-in-kolding {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "live-in-koldingimg1 live-in-koldingarticle1"
+    "live-in-koldingarticle2 live-in-koldingimg2";
+}
 
+#live-in-koldingimg1 {
+  grid-area: live-in-koldingimg1;
+}
+
+#live-in-koldingimg2 {
+  grid-area: live-in-koldingimg2;
+}
+
+#live-in-koldingarticle1 {
+  grid-area: live-in-koldingarticle1;
+}
+
+#live-in-koldingarticle2 {
+  grid-area: live-in-koldingarticle2;
+}
+
+#live-in-kolding article {
+  padding: 25px;
+}
+
+#live-in-kolding p {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#live-in-kolding h2 {
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#live-in-kolding img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+  #live-in-kolding {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "live-in-koldingimg1"
+      "live-in-koldingarticle1"
+      "live-in-koldingimg2"
+      "live-in-koldingarticle2";
+  }
+}
 /* Børneliv */
 
 /* Geografisk have */
+.geo-h3-2,
+.geo-h3-4,
+.geo-h3-6,
+.geo-h3-8,
+.geo-img-2,
+.geo-img-4,
+.geo-img-6,
+.geo-img-8 {
+  background-color: red;
+}
+.geo-h2-color-1 {
+  color: #6b6054;
+}
+.geo-h2-color-2 {
+  color: #837b6b;
+}
+.geo-h2 {
+  font-size: 11vw;
+  text-align: center;
+}
 
+.geo-section p {
+  font-size: 1.6vw;
+  /* text-align: justify; */
+}
+.geo-section {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+}
+.geo-img {
+  width: 41vw;
+}
+img {
+  width: 100%;
+}
 /* Natteliv */
 #night-life {
   display: grid;
@@ -127,15 +592,80 @@
 /* Danmark */
 #denmark {
   max-width: 70%;
+  min-width: 50%;
   margin: 0 auto;
 }
 
 #denmark img {
-  height: 670px;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
 }
 
-#smalltext {
+#denmark h2 {
+  padding-top: 20px;
+}
+
+#denmarksmalltext {
   font-size: 15px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .header-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f"
+      "g h"
+      "i j";
+    gap: 1vw;
+
+    margin: 1vw 5vw;
+  }
+
+  .event-container h4 {
+    font-size: 5vw;
+    align-self: center;
+  }
+
+  .event-1,
+  .event-2,
+  .event-3 {
+    display: block;
+    margin: 2vw;
+    border: 2px dotted black;
+    text-align: justify;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .event-1 img,
+  .event-2 img,
+  .event-3 img {
+    display: none;
+  }
+
+  .event-1 {
+    background-image: url(/VisitKolding/Billedmateriale/kunst.jpg);
+    background-size: cover;
+  }
+
+  .event-2 {
+    background-image: url(/VisitKolding/Billedmateriale/kunst2.jpg);
+    background-size: cover;
+  }
+  .event-3 {
+    background-image: url(/VisitKolding/Billedmateriale/kunst3.jpg);
+    background-size: cover;
+  }
+
+  .section-2 {
+    display: block;
+    text-align: center;
+  }
 }
