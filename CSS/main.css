@@ -609,21 +609,28 @@ img {
 #denmark h2 {
   padding-top: 20px;
 }
+.sub-grid article{
+  text-align: center;
+}
+.sub-grid article h2{
+  margin: 0 0 1vw 0;
+}
+.taskbox{
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+}
 
+.taskbox li{
+  margin: 1vw 0;
+}
+
+ul{
+  list-style: none;
+}
 @media screen and (max-width: 700px) {
   .header-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      "a b"
-      "c d"
-      "e f"
-      "g h"
-      "i j";
-    gap: 1vw;
-
-    margin: 1vw 5vw;
+    display: block;
   }
 
   .event-container h4 {
@@ -665,5 +672,15 @@ img {
   .section-2 {
     display: block;
     text-align: center;
+  }
+
+  .section-2-gallery{
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-2-gallery img{
+    height: 40vw;
   }
 }
