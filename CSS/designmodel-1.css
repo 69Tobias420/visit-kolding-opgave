@@ -61,4 +61,14 @@ figure{
         display: block;
     }
 
+    .grid-pic{
+        width: 100%;
+        margin: 0;
+        height: 80%;
+    }
+
+    figure{
+        width: 80%;
+        margin: auto;
+    }
 }
