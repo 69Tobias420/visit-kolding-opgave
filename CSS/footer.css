@@ -2,7 +2,9 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
+footer a{
+    text-decoration: none;
+}
 .upper-footer{
     background-color: #6b6054;
     display: flex;
